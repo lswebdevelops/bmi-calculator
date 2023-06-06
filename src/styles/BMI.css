@@ -1,0 +1,48 @@
+:root {
+  --main-background: rgb(225, 232, 255);
+  --main-color: white;
+  --second-color: black;
+  --main-border-radius: 4px;
+  --second-background: rgb(32, 19, 153);
+}
+
+.container {
+
+  background-color: var(--main-color);
+  /* border: solid 1px firebrick; */
+  padding: 0;
+  margin: auto;
+
+}
+h1 {
+  background-color: var(--second-background);
+  color: var(--main-color);
+  padding: 15px;
+  font-size: 3rem;
+}
+.weight-input,
+.height-input {
+  width: 400px;
+}
+.weight-label,
+.height-label,
+.p-ibm {
+  font-size: 1.2rem;
+  padding: 5px;
+  width: 400px;
+}
+.measurement-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+.output{
+    background-color: var(--second-background);
+    color: var(--main-color);
+   border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    font-size: 2.5rem;
+}
